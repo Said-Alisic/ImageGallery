@@ -19,11 +19,13 @@ creating an intuitive React web application that is hosted on vercel with a simp
 ### Running the application on the local machine
 
 1. Pull the git project to a directory of your choosing
-2. Navigate to the web-app folder where you have downloaded the source code
+2. Navigate to the web-app directory where you have downloaded the source code
 3. Run `npm install` to install all necessary dependencies for the project
-4. Run `npm start` to start the web application 
-5. Navigate to `localhost:3000` in your favorite web browser
-6. Use the application to your heart's content! :)
+4. Create an `.env` file inside the web-app directory and set your Pexels API authentication key as 
+`REACT_APP_PEXELS_AUTH=[your_auth_key]`
+5. Run `npm start` to start the web application 
+6. Navigate to `localhost:3000` in your favorite web browser
+7. Use the application to your heart's content! :)
 
 
 

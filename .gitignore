@@ -1,4 +1,3 @@
 workspace.code-workspace
-AUTH_KEYS
-web-app/src/api
+web-app/.env
 web-app/README.md
