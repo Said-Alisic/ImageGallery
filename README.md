@@ -1,4 +1,4 @@
-# ImageGallery
+# **ImageGallery**
 
 ## Introduction
 

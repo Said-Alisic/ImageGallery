@@ -1,9 +1,18 @@
 import React from 'react';
+import Container from './Components/Container';
+import NavBar from './Components/NavBar';
+import Routes from './Components/Routes';
+import { appStyles } from './assets/styles/sharedStyles'
 
 function App() {
-  return (
-    <div>
+  const classes = appStyles()
 
+  return (
+    <div className={classes.app}>
+      <Container>
+        <NavBar/>
+        <Routes/>
+      </Container>
     </div>
   );
 }

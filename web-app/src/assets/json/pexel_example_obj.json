@@ -1,0 +1,50 @@
+{
+    "page": 1,
+    "per_page": 2,
+    "photos": [
+        {
+            "id": 1626481,
+            "width": 5377,
+            "height": 3585,
+            "url": "https://www.pexels.com/photo/black-cassette-tape-on-top-of-red-and-yellow-surface-1626481/",
+            "photographer": "Stas Knop",
+            "photographer_url": "https://www.pexels.com/@stasknop",
+            "photographer_id": 442409,
+            "avg_color": "#D37735",
+            "src": {
+                "original": "https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg",
+                "large2x": "https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        },
+        {
+            "id": 6966,
+            "width": 3123,
+            "height": 2082,
+            "url": "https://www.pexels.com/photo/audio-e-guitars-guitars-music-6966/",
+            "photographer": "Snapwire",
+            "photographer_url": "https://www.pexels.com/@snapwire",
+            "photographer_id": 2671,
+            "avg_color": "#AAAAAA",
+            "src": {
+                "original": "https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg",
+                "large2x": "https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+                "large": "https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+                "medium": "https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&h=350",
+                "small": "https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&h=130",
+                "portrait": "https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+                "landscape": "https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+                "tiny": "https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+            },
+            "liked": false
+        }
+    ],
+    "total_results": 8000,
+    "next_page": "https://api.pexels.com/v1/search/?page=2&per_page=2&query=music"
+}
