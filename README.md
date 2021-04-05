@@ -9,7 +9,8 @@ creating an intuitive React web application that is hosted on vercel with a simp
 
 ## Using the web application
 
-...
+To use the application without downloading the source code and running it on the
+local machine, simply navigate to https://image-gallery-six.vercel.app/ and check it out! :)
 
 ### Prerequisites for running on local machine
 
