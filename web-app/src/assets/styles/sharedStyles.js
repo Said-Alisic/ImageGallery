@@ -5,7 +5,7 @@ export const appStyles = makeStyles((theme) => ({
         backgroundSize: 'cover',
         background: 'linear-gradient(to right, #45b3e0 3%, #5bbce4 8%, #71c5e7 15%, #87ceeb 25%, #9dd7ef 40%, #b3e0f2 65%, #c9e9f6 80%)',
     },
-}));
+}), {index: 1});
 
 export const navBarStyles = makeStyles((theme) => ({
     navBar: {
@@ -30,7 +30,7 @@ export const navBarStyles = makeStyles((theme) => ({
         fontStyle: 'italic',
         textTransform: 'initial',
     },
-}));
+}), {index: 1});
 
 export const containerStyles = makeStyles((theme) => ({
     container: {
@@ -39,7 +39,7 @@ export const containerStyles = makeStyles((theme) => ({
         backgroundPosition: 'center',
         maxWidth: 'lg',
     },   
-}));
+}), {index: 1});
 
 export const textStyles = makeStyles((theme) => ({
     mainText: {
@@ -53,7 +53,7 @@ export const textStyles = makeStyles((theme) => ({
         fontFamily: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif',
         color: '#30106B',
     },
-}));
+}), {index: 1});
 
 export const imageStyles = makeStyles((theme) => ({
     imgGrid: {
@@ -103,7 +103,7 @@ export const imageStyles = makeStyles((theme) => ({
     cardBtnText: {
         marginRight: 'auto',
     },
-}));    
+}), {index: 1});    
 
 export const searchBarStyles = makeStyles((theme) => ({
     searchBar: {
@@ -127,5 +127,5 @@ export const searchBarStyles = makeStyles((theme) => ({
         marginLeft: '6%',
         color: 'black',
     },
-}));
+}), {index: 1});
 
