@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, InputBase, Toolbar, Button } from '@material-ui/core';
+import { AppBar, Toolbar, Button } from '@material-ui/core';
 import FavoriteBorderSharpIcon from '@material-ui/icons/FavoriteBorderSharp';
 import PhotoLibrarySharpIcon from '@material-ui/icons/PhotoLibrarySharp';
 import { Link as NavLink } from 'react-router-dom';
