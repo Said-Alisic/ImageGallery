@@ -7,12 +7,12 @@ function Images() {
 
     return (
         <>
-            <h1 className={classes.mainText}>Images Page</h1>
+            <h1 className={classes.mainText}>Welcome to browsing images</h1>
             <h3 className={classes.infoText}>
                 Try searching for images by typing 
                 "Nature", "Art", "Music", 
                 "Architecture", and more 
-                in the searchbar! :)
+                in the search bar!
             </h3>
             <ImagesGrid/>
         </>

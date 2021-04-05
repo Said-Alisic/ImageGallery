@@ -1,5 +1,6 @@
 import React from 'react';
-import { Input, Button, Paper } from "@material-ui/core";
+import { InputBase, IconButton, Paper,  } from "@material-ui/core";
+import SearchSharpIcon from '@material-ui/icons/SearchSharp';
 import { searchBarStyles } from '../assets/styles/sharedStyles'
 
 function SearchBar (props) {
@@ -7,8 +8,16 @@ function SearchBar (props) {
 
   return (
     <Paper component="form" className={classes.searchBar} onSubmit={props.handleSubmit}>
-      <Input className={classes.input} id="searchBar" type="text" value={props.input} onChange={props.handleChange}/>
-      <Button className={classes.subBtn} type="submit" name="action">Search</Button>
+      <InputBase className={classes.input} 
+                  id="searchBar" 
+                  type="text" 
+                  value={props.input} 
+                  onChange={props.handleChange}
+                  placeholder="Search for images"
+                  autoComplete='off'/>
+      <IconButton className={classes.searchBtn} type="submit" name="action">
+        <SearchSharpIcon />
+      </IconButton>
     </Paper>
   );
 }

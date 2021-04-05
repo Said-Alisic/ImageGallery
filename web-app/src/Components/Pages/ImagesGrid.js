@@ -28,7 +28,8 @@ function ImagesGrid() {
     if(input) {
       getPhotosByQuery(input)
       .then((res) => {
-        setImages(res.photos)      
+        setImages(res.photos)  
+        setInput("")    
       })
       .catch((err) => { 
           console.log(`Error occurred when loading images data into array: ${err}`)   

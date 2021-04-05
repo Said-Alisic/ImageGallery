@@ -17,10 +17,6 @@ function NavBar() {
                 component={NavLink} to="/images">Images</Button>
         <Button className={`${classes.btnFont} ${classes.btn}`} 
                 component={NavLink} to="/favorites">Favorites</Button>
-        <Button className={`${classes.btnFont} ${classes.btn}`} 
-                component={NavLink} to="/about">About</Button>
-        <Button className={`${classes.btnFont} ${classes.btn}`}
-                component={NavLink} to="/about-pexels">About Pexels</Button>
       </Toolbar> 
     </AppBar>  
   );

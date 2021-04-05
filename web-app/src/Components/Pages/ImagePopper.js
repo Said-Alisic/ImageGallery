@@ -11,10 +11,11 @@ function ImagePopper(props) {
   const [placement, setPlacement] = useState();
 
   const handlePopoverClick = () => (event) => {
+    
     if (!open) {
       setAnchorEl(event.currentTarget);
       setOpen(true);
-      setPlacement("right")
+      setPlacement("bottom")
     } else {
       setAnchorEl(null);
       setOpen(false)
@@ -32,7 +33,16 @@ function ImagePopper(props) {
         onMouseLeave={() => {
             setTimeout(handlePopoverClose, 200);
           }}>
-      <Popper  open={open} anchorEl={anchorEl} placement={placement}>
+      <Popper open={open} 
+              anchorEl={anchorEl} 
+              placement={placement}
+              popperOptions={{
+                modifiers: {
+                   offset: {
+                       offset: '0, -430',
+                   },
+                },
+              }}>
         <ImageContent image={props.image}/>
       </Popper>
       <img  className={classes.img}
