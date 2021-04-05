@@ -42,8 +42,7 @@ function ImagesGrid() {
   }
 
   return (
-    <>
-    
+    <>  
       <div className={classes.imgGrid}>
       <SearchBar input={input} handleChange={handleChange} handleSubmit={handleSubmit}/>
         <Grid container spacing={3}>

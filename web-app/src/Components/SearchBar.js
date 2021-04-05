@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputBase, IconButton, Paper,  } from "@material-ui/core";
+import { InputBase, IconButton, Paper } from "@material-ui/core";
 import SearchSharpIcon from '@material-ui/icons/SearchSharp';
 import { searchBarStyles } from '../assets/styles/sharedStyles'
 

@@ -15,9 +15,11 @@ export const navBarStyles = makeStyles((theme) => ({
     },
     btn: {
         color: '#5a20c4',
-        textDecoration: 'underline',
         textDecorationThickness: '20%',
     },   
+    btnIcon: {
+        marginLeft: "3%",
+    },
     titleBtn: {
         color: '#5a20c4',
         fontSize: 'x-large',
