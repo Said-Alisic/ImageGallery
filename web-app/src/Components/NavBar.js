@@ -11,15 +11,15 @@ function NavBar() {
   return (
     <AppBar className={classes.navBar}>
       <Toolbar>
-        <Button className={`${classes.btnFont} ${classes.titleBtn}`}
+        <Button className={classes.titleBtn}
                 component={NavLink} to="/">Image Cards</Button>
-        <Button className={`${classes.btnFont} ${classes.btn}`} 
+        <Button className={classes.btn} 
                 component={NavLink} to="/images">Images 
-                <PhotoLibrarySharpIcon className={`${classes.btnIcon}`}/>    
+                <PhotoLibrarySharpIcon className={classes.btnIcon}/>    
         </Button>
-        <Button className={`${classes.btnFont} ${classes.btn}`} 
+        <Button className={classes.btn} 
                 component={NavLink} to="/favorites">Favorites 
-                <FavoriteBorderSharpIcon className={`${classes.btnIcon}`}/>
+                <FavoriteBorderSharpIcon className={classes.btnIcon}/>
         </Button>
       </Toolbar> 
     </AppBar>  

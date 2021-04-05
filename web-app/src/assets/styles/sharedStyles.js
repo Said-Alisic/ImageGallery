@@ -12,10 +12,13 @@ export const navBarStyles = makeStyles((theme) => ({
         boxShadow: 5,
         background: 'linear-gradient(to bottom left, #45b3e0 15%, #5bbce4 25%, #71c5e7 35%, #87ceeb 50%, #9dd7ef 65%, #b3e0f2 80%, #c9e9f6 100%)',
         position: 'sticky', 
+        fontWeight: 'bold',
+        fontFamily: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif', 
     },
     btn: {
         color: '#5a20c4',
         textDecorationThickness: '20%',
+        textTransform: 'initial',
     },   
     btnIcon: {
         marginLeft: "3%",
@@ -25,10 +28,7 @@ export const navBarStyles = makeStyles((theme) => ({
         fontSize: 'x-large',
         marginRight: 'auto',
         fontStyle: 'italic',
-    },
-    btnFont: {
-        fontWeight: 'bold',
-        fontFamily: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif',
+        textTransform: 'initial',
     },
 }));
 
@@ -81,7 +81,7 @@ export const imageStyles = makeStyles((theme) => ({
     cardBtn: {
         width: '220px',
         color: 'white',
-        textTransform: 'none',
+        textTransform: 'inherit',
         background: 'linear-gradient(45deg, #260D56 15%, #5a20c4 35%, #30106B 45%, #7A66A1 60%, #594089 70%, #9585B4 100% )', 
         transitionDuration: 350, 
         '&:hover': {

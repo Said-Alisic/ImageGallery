@@ -16,7 +16,7 @@ function ImageContent (props) {
             <Card >
                 <CardContent className={classes.imgCard}>
                     <List>
-                        <ListItem className={`${classes.cardHeader}`}>
+                        <ListItem className={classes.cardHeader}>
                             <Typography variant="h5" component="h2">Image Details</Typography>
                         </ListItem>
                         <ListItem className={classes.cardContent}>
