@@ -1,7 +1,5 @@
 import React from 'react';
 import { AppBar, Toolbar, Button } from '@material-ui/core';
-import FavoriteBorderSharpIcon from '@material-ui/icons/FavoriteBorderSharp';
-import PhotoLibrarySharpIcon from '@material-ui/icons/PhotoLibrarySharp';
 import { Link as NavLink } from 'react-router-dom';
 import { navBarStyles } from '../assets/styles/sharedStyles'
 
@@ -14,12 +12,10 @@ function NavBar() {
         <Button className={classes.titleBtn}
                 component={NavLink} to="/">Image Cards</Button>
         <Button className={classes.btn} 
-                component={NavLink} to="/images">Images 
-                <PhotoLibrarySharpIcon className={classes.btnIcon}/>    
+                component={NavLink} to="/images">Images    
         </Button>
         <Button className={classes.btn} 
                 component={NavLink} to="/favorites">Favorites 
-                <FavoriteBorderSharpIcon className={classes.btnIcon}/>
         </Button>
       </Toolbar> 
     </AppBar>  
